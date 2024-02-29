@@ -16,12 +16,7 @@ app.use(
   })
 );
 
-const users = [
-  {
-    username: 'alice',
-    password: '$2b$10$TUYGPcvsoxfAJaAam/7tR.hz4nfOmY0hXF7N3A75egnOhte84U50q'
-  }
-];
+const users = [];
 
 app.post("/signup", (req, res) => {
   const { username, password } = req.body;
