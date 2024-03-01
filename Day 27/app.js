@@ -66,10 +66,10 @@ async function deleteUsersBeforeDate(date) {
 const oneWeekAgo = new Date();
 oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-// addUser();
+//addUser();
 //getUserByNameAndEmail("zakaria samir", "zakaria.samir@arkx.group");
-// updateEmail("hello.world@arkx.group", "zakaria.samir@arkx.group");
-// getUserByNameAndEmail("zakaria samir", "zakaria.samir@arkx.group");
+//updateEmail("hello.world@arkx.group", "zakaria.samir@arkx.group");
+//getUserByNameAndEmail("zakaria samir", "zakaria.samir@arkx.group");
 //getAllUsers();
 deleteUsersBeforeDate(oneWeekAgo);
 app.listen(3000);
