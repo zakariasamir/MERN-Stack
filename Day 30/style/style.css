@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00031c;
+  font-family: "Nunito Sans", sans-serif;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.logo {
+  margin: 15px;
+  font-size: 4rem;
+}
+header nav {
+  display: inline;
+}
+header button {
+  background-color: #6c52ee;
+  display: inline;
+}
+header ul a {
+  list-style: none;
+  display: inline;
+  align-content: space-around;
+  margin: 15px;
+}
+header ul {
+  display: flex;
+  align-content: space-between;
+  position: absolute;
+  top: 25px;
+}
+header div {
+  position: absolute;
+  top: 25px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header form {
+  margin: 10px;
+}
+header select option {
+  color: black;
+}
+header div {
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+header div i {
+  margin: 15px 0 0 15px;
+  color: white;
+}
+header input {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #6c52ee;
+  background: transparent;
+}
+.subscribe {
+  padding: 5px 10px 5px 10px;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  color: white;
+}
+.search {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.language {
+  margin: 10px;
+  height: 25px;
+  padding: 0 10px 0 10px;
+  background: transparent;
+  color: white;
+  border: 0;
+}
+.heroCover {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+.hero {
+  color: white;
+}
+.hero img {
+  display: block;
+  /* width: 100%; */
+}
+.heroContent {
+  /* width: 200px; */
+  margin: 100px 50px;
+}
+.heroContent a {
+  color: #6c52ee;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.heroContent a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 30px 0;
+}
+.heroContent div {
+  display: flex;
+  margin: 20px 0;
+}
+.heroContent div p {
+  display: flex;
+  margin-right: 30px;
+}
+.description {
+  margin: 30px 0;
+  width: 50%;
+}
+.heroContent button {
+  color: white;
+  background-color: #6c52ee;
+  height: 50px;
+  width: 200px;
+  border: 0;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.heroContent button:hover {
+  color: white;
+  background: linear-gradient(#6c52ee, #9198e5);
+}
+.Movies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Movies div:first-child {
+  display: flex;
+  left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Movies div h5 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  left: 40px;
+}
+.viewAll {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  right: 40px;
+}
+.moviesContainer {
+  display: flex;
+  margin-left: 40px;
+  overflow: hidden;
+}
+.moviesContainer article {
+  padding-right: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.moviesContainer article div {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.moviesContainer img {
+  border-radius: 10px;
+  display: block;
+}
+.moviesContainer p {
+  color: gray;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.moviesContainer p:last-child {
+  position: relative;
+  right: 0;
+}
+.moviesContainer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.moviesContainer a:first-child {
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+.newRelease {
+  width: 100%;
+  height: 500px;
+}
+.newRelease button {
+  position: absolute;
+  color: white;
+  background-color: #6c52ee;
+  height: 50px;
+  width: 200px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  top: 400px;
+  left: 300px;
+  cursor: pointer;
+}
+.newRelease button:hover {
+  background: linear-gradient(#6c52ee, #9198e5);
+}
+.pricing {
+  width: 100%;
+}
+.pricing .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+}
+.subscribtionHeader h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+}
+.subscribtionHeader p {
+  color: white;
+  padding: 20px;
+}
+.planDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.planDescription article {
+  position: relative;
+  border: 2px solid #6c52ee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  color: white;
+}
+.planDescription article:nth-child(2) {
+  margin: 0 20px;
+  height: 450px;
+}
+.plan h5 {
+  position: absolute;
+  font-size: 1rem;
+  top: 30px;
+}
+.plan h1 {
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 600;
+  top: 60px;
+}
+.plan button {
+  position: absolute;
+  font-size: 2rem;
+  top: 100px;
+  color: #6c52ee;
+  background: transparent;
+  border: 2px solid #6c52ee;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  height: 60px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+}
+.features div {
+  display: flex;
+  position: relative;
+  top: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.features i {
+  color: #6c52ee;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #161934;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer p {
+  color: white;
+}
+.footerContainer {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 40px;
+}
+.footerContainer div {
+  width: 300px;
+}
+.footerLogo {
+  font-weight: 700;
+  font-size: 5rem;
+}
+.socialMedia p {
+  margin-bottom: 10px;
+}
+.socialMedia a {
+  margin-right: 15px;
+}
+.download p {
+  margin-bottom: 10px;
+}
+.help li {
+  margin-top: 10px;
+}
+.help li a {
+  color: gray;
+}
+.up {
+  display: flex;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  display: flex;
+  padding: 40px;
+}
+.copyright ul {
+  position: absolute;
+  right: 50px;
+  display: flex;
+}
